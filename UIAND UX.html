@@ -1,0 +1,120 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <style>
+        /* reset defaults*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+        /* hor*/
+        nav.top-nav{
+            background-color:#333;
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        nav.top-nav a {
+            color: blanchedalmond;
+            padding: 15px 21px;
+            display: inline-block;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+
+        nav.top-nav a:hover{
+            background-color: bisque;
+            color: honeydew;
+        }
+        /*side*/
+         nav.side-nav {
+            background-color: rgb(151, 216, 107);
+            display: flex;
+            justify-content: center;
+            position: fixed;
+            top: 50;
+            left: 0;
+            width: 100%;
+            z-index: 10  ;
+            flex-direction: column;
+            align-items: flex-start;
+            padding-top: 10px;
+
+        }
+        
+        nav.side-nav a {
+            color: chocolate;
+            padding: 20px 26px;
+            display: block;
+            font-weight: bold;
+            text-decoration: none;
+        }
+         nav.side-nav a:hover{
+            background-color: bisque;
+            color: lavender;
+         }
+         .main-content {
+            margin-top: 50px;
+            margin-left: 200px;
+            padding: 20px;
+
+         }
+
+
+    </style>
+
+
+
+</head>
+
+
+
+
+<body>
+    <!-- Horizontal Top navigation-->
+     <nav class="top-nav">
+        <a href="#">login</a> 
+        <a href="#">Home</a> 
+        <a href="#">career</a> 
+        <a href="#">contact</a> 
+        <a href="#">projects</a> 
+
+     </nav>
+      <!--  Vertical Top navigation-->
+     <nav class="side-nav">
+        <a href="#">login out</a> 
+        <a href="#"> my courses</a> 
+        <a href="#"> certification</a> 
+        <a href="#"> dashboard</a> 
+     </nav> 
+     <!--  main content area -->
+        <div class=" main content"><br>
+
+
+            <br>
+                  <br>
+                        <br>
+
+       
+            <h1> welcome to the dash board</h1>
+            <br>
+            <p> this section remains to visible alongside the sidebar and below the navigation  </p>
+
+
+        </div>
+
+</body>
+</html>
